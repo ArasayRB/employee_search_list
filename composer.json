@@ -2,7 +2,8 @@
     "name": "arayou/employee_search_list",
     "require": {
         "phroute/phroute": "^2.1",
-        "lichtner/fluentpdo": "^2.2"
+        "lichtner/fluentpdo": "^2.2",
+        "twbs/bootstrap": "4.0.0"
     },
     "authors": [
         {
