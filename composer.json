@@ -1,0 +1,12 @@
+{
+    "name": "arayou/employee_search_list",
+    "require": {
+        "phroute/phroute": "^2.1"
+    },
+    "authors": [
+        {
+            "name": "arbast",
+            "email": "ing.arasay@gmail.com"
+        }
+    ]
+}
