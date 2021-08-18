@@ -2,10 +2,8 @@
     "name": "arayou/employee_search_list",
     "require": {
         "phroute/phroute": "^2.1",
-        "lichtner/fluentpdo": "^2.2",
         "twbs/bootstrap": "4.0.0",
-        "guzzlehttp/guzzle": "^7.3",
-        "vlucas/phpdotenv": "^5.3"
+        "guzzlehttp/guzzle": "^7.3"
     },
     "autoload": {
         "psr-4": {
