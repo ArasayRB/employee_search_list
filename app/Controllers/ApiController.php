@@ -4,8 +4,8 @@ namespace App\Controllers;
 use GuzzleHttp\Client;
 
 class ApiController{
-  
-  public function connect_api(){
+
+  public function connect_api():string{
     $client = new Client();
     $res = $client->get('https://hiring.rewardgateway.net/list', [
       'auth' =>  ['hard', 'hard']
