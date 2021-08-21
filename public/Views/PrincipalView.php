@@ -1,6 +1,6 @@
 <?php
 include('Layout/HeaderView.php');
-$dat=$this->data;
+$dat=$this->person;
 $cant=count($dat);
 echo '<div class="bg-info">
 <h1 class="text-center text-light text-uppercase h4"><span class="font-weight-bold">Reward</span>| Gateway</h1>

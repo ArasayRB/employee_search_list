@@ -6,12 +6,13 @@ use App\Models\Person;
 use App\Controllers\ApiController;
 
 class PersonController{
-  private $employeer;
+  private $person;
   private $data;
   public function index(){
     $employeers_list=new ApiController();
     $bod=$employeers_list->connect_api();
-    $this->data=$this->jsonDecode($bod);//json_decode($bod,true);
+    $this->person=new Person();
+    $this->person=$this->jsonDecode($bod);
     require_once  "./public/Views/PrincipalView.php";
   }
 
